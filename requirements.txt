@@ -1,0 +1,8 @@
+# Dependências necessárias para rodar o notebook ida-etl-logcomex
+# Instale com: pip install -r requirements.txt
+
+pandas
+numpy
+matplotlib
+seaborn
+jupyterlab  # opcional: usar Jupyter Lab/Notebook
