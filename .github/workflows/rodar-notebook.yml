@@ -3,6 +3,9 @@ name: Rodar notebook de teste
 on:
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   rodar-notebook:
     runs-on: ubuntu-latest
@@ -32,4 +35,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: notebook-executado
-          path: .
+          path: teste_modelo_executado.ipynb
